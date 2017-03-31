@@ -32,6 +32,29 @@
  	text-align: center;
  }
  
+ h4 {
+ 	text-align: right
+ }
+ 
+ h4 a {
+ 	color: black;
+ }
+ 
+ article {
+ 	background: linear-gradient(to right, rgba(0, 0, 0, 0), white, white, white);
+ 	float: left;
+ 	width: 50%;
+ 	height: 100%;
+ 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+ }
+ 
+ aside {
+ 	background: linear-gradient(to left, rgba(0, 0, 0, 0), white, white, white);
+ 	width: 50%;
+ 	height: 100%;
+ 	float: right;
+ }
+ 
  img {
  	width: 100%;
  	height: auto;
@@ -47,6 +70,10 @@
  header img {
  	height: 100%;
  	width: auto;
+ }
+ 
+ footer {
+ 	clear: both;
  }
  
  nav {
@@ -69,7 +96,7 @@
  	display: flex;
  	text-align: center;
  	padding: 10px 10px;
- 	background-color: #fff;
+ 	background-color: white;
  	flex: 1 1 auto;
  	height: 7px;
  	margin: 0 0 0 -4px;
@@ -81,7 +108,7 @@
  
  li a:hover {
  	background-color: #f5f5f5;
- 	border-bottom: 4px solid #6495ed;
+ 	border-bottom: 4px solid #f5f5f5;
  }
  /*===Class===*/
  
@@ -112,7 +139,11 @@
  }
  
  .current {
- 	border-bottom: 4px solid #6495ed;
+ 	background-color: #f5f5f5;
+ }
+ 
+ .current a {
+ 	border-bottom: 4px solid #f5f5f5;
  }
  
  .quarter {
@@ -129,18 +160,38 @@
  	font-size: 700%;
  	margin: 10%;
  }
- 
+.image{
+	text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
+}
  .image p {
  	clear: both;
  	font-size: 160%;
  	text-indent: 0;
  	text-align: center;
  	padding: 5%;
- 	line-height: 300%;
+ 	line-height: 150%;
  }
  
  .image h2 {
  	clear: both;
+ }
+ 
+ .socket {
+ 	background-color: black;
+ 	color: white;
+ 	text-align: center;
+ }
+ 
+ .socket p {
+ 	font-size: 16px;
+ 	padding: 10px;
+ }
+ 
+ .contact {
+ 	margin: 0 auto;
+ 	max-width: 1200px;
+ 	width: 100%;
+ 	height: auto;
  }
  /*===ID===*/
  
@@ -151,7 +202,7 @@
  }
  
  #image-1 {
- 	background: url(img/ferdinand-stohr-149422.jpg) no-repeat fixed;
+ 	background: url(img/averie-woodard-111822.jpg) no-repeat fixed;
  	background-size: cover;
  	color: white;
  }
@@ -207,9 +258,29 @@
  		width: 100%;
  	}
  	.quarter {
-		width: 50%;
-		height: 225px;
+ 		width: 50%;
+ 		height: 225px;
  		margin: 20px 25%;
  		border-radius: 18px;
+ 	}
+ 	.contact {
+ 		margin: 0 auto;
+ 		max-width: 1200px;
+ 		width: 100%;
+ 	}
+ 	h4 {
+ 		text-align: center;
+ 		margin: 20px
+ 	}
+ 	article {
+ 		background-color: white;
+ 		float: left;
+ 		width: 100%;
+ 	}
+ 	aside {
+ 		background-color: white;
+ 		text-align: center;
+ 		width: 100%;
+ 		float: right;
  	}
  }
