@@ -107,8 +107,9 @@
  }
  
  li a:hover {
- 	background-color: #f5f5f5;
- 	border-bottom: 4px solid #f5f5f5;
+ 	background-color: #e5e5e5;
+ 	border-bottom: 4px solid #e5e5e5;
+	color: #4a6ead;
  }
  /*===Class===*/
  
@@ -138,11 +139,8 @@
  	height: 40px;
  }
  
- .current {
- 	background-color: #f5f5f5;
- }
- 
  .current a {
+	background-color: #f5f5f5;
  	border-bottom: 4px solid #f5f5f5;
  }
  
@@ -160,9 +158,11 @@
  	font-size: 700%;
  	margin: 10%;
  }
-.image{
-	text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
-}
+ 
+ .image {
+ 	text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
+ }
+ 
  .image p {
  	clear: both;
  	font-size: 160%;
