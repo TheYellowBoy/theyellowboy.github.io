@@ -235,7 +235,7 @@
  @media screen and (max-width:720px) {
  	.nav {
  		display: inline-block;
- 		background: url(../img/nav.png) center;
+ 		background: url(/img/nav.png) center;
  	}
  	nav ul,
  	nav:active ul {
