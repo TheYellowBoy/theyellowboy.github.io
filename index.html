@@ -98,18 +98,45 @@
 			</section>
 		</div>
 		<section class="contact">
-			<article>
-				<h2>Lets Work Together!</h2>
-				<p>
-					Are you interested in repositioning your brand so you stand out against competitors in the industry? I’m here to provide personalized attention to all your design needs and bring your vision to life in a way that creates a lasting impact. Contact us today for a free consultation.
-				</p>
-				<h4>Greenville, SC, USA</h4>
-				<h4><a href="mailto:LogosMediaGroup@gmail.com">LogosMediaGroup@gmail.com</a></h4>
-				<h4>864-720-8930</h4>
-			</article>
-			<aside>
-				temporary contact form go here
-			</aside>
+			<div class="row" id="contact-row">
+				<div class="col-xs-12 col-sm-6">
+					<article>
+						<h2>Lets Work Together!</h2>
+						<p>
+							Are you interested in repositioning your brand so you stand out against competitors in the industry? I’m here to provide personalized attention to all your design needs and bring your vision to life in a way that creates a lasting impact. Contact us today for a free consultation.
+						</p>
+						<h4>Greenville, SC, USA</h4>
+						<h4><a href="mailto:LogosMediaGroup@gmail.com">LogosMediaGroup@gmail.com</a></h4>
+						<h4>864-720-8930</h4>
+					</article>
+				</div>
+
+				<div class="col-xs-12 col-sm-6" id="contact-form">
+					<aside>
+						temporary contact form go here
+					</aside>
+
+					<form method="post">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<input type="text" placeholder="Name">							
+							</div>
+							
+							<div class="col-xs-12 col-sm-6">
+								<input type="email" placeholder="Email">
+							</div>
+						</div>
+
+						<div class="row text-center">
+							<input type="text" placeholder="Subject">
+							<input type="number" min="1" max="5" placeholder="Phone">
+							<input type="text" placeholder="Address">	
+							
+							<textarea placeholder="Message"></textarea>
+						</div>
+					</form>
+				</div>
+			</div>
 		</section>
 		<footer>
 			<div class="socket">
@@ -120,6 +147,7 @@
 	</div>
 
 	<script>
+
 		window.onload = function() {
 			var container = document.getElementsByClassName("container-fluid")[0];
 
