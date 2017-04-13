@@ -50,29 +50,29 @@
 
 				
 					
-					<div class="row quarter-row text-center">
-						<div class="col-md-3">
+					<div class="row quarter-row">
+						<div class="col-xs-12 col-sm-3 col-md-3">
 							<div class="quarter" id="branding">
 								<i class="fa fa-user"></i>
 								<h1>BRANDING</h1>
 							</div>		
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-xs-12 col-sm-3 col-md-3">
 							<div class="quarter" id="seo">
 								<i class="fa fa-google"></i>
 								<h1>SEO</h1>
 							</div>
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-xs-12 col-sm-3 col-md-3">
 							<div class="quarter" id="design">
 								<i class="fa fa-paint-brush"></i>
 								<h1>DESIGN</h1>
 							</div>
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-xs-12 col-sm-3 col-md-3">
 							<div class="quarter" id="illustration">
 								<i class="fa fa-picture-o"></i>
 								<h3>ILLUSTRATION</h3>
@@ -125,6 +125,11 @@
 
 			container.style.paddingLeft = 0;
 			container.style.paddingRight = 0;
+
+			var row = document.getElementsByClassName("quarter-row")[0];
+			row.style.marginLeft = 0;
+			row.style.marginRight = 0;
+
 		}
 	</script>
 

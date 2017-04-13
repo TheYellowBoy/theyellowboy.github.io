@@ -1,6 +1,7 @@
  @import url('https://fonts.googleapis.com/css?family=Ubuntu');
  /*===reset===*/
  
+
  * {
  	margin: 0;
  	padding: 0;
@@ -11,6 +12,7 @@
  
  body {
  	background: #cccccc;
+ 	overflow-x: hidden;
  }
  
  p {
@@ -233,13 +235,22 @@
  
  @media screen and (max-width:1200px) {
  	.quarter {
- 		margin: 0;
+ 	
  		border-radius: 0;
- 		width: 25%;
+ 		width: 100%;
  	}
+
+
+ }
+
+ @media screen and (max-width: 1200px) and (min-width: 767px) {
+ 	.quarter-row {
+ 	 	background: black;
+ 	}
+
  }
  
- @media screen and (max-width:720px) {
+ @media screen and (max-width:767px) {
  	.nav {
  		display: inline-block;
  		background: url(/img/nav.png) center;
@@ -269,6 +280,7 @@
  		height: 225px;
  		margin: 20px 25%;
  		border-radius: 18px;
+
  	}
  	.contact {
  		margin: 0 auto;
