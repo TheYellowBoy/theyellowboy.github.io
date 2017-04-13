@@ -7,10 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href="css/font-awesome.min.css" rel="stylesheet" />
 	<link rel="shortcut icon" type="image/png" href="img/biglogo.png" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<header>
 			<a href=""><img src="img/logo.png"></a>
 			<!-- change image -->
@@ -57,7 +58,7 @@
 					<i class="fa fa-picture-o"></i>
 					<h3>ILLUSTRATION</h3>
 				</div>
-				<p></p>
+				
 			</section>
 			<section class="wrapper">
 				<h2>Text go here</h2>
@@ -95,4 +96,14 @@
 		</footer>
 
 	</div>
+
+	<script>
+		window.onload = function() {
+			var container = document.getElementsByClassName("container-fluid")[0];
+
+			container.style.paddingLeft = 0;
+			container.style.paddingRight = 0;
+		}
+	</script>
+
 </body>

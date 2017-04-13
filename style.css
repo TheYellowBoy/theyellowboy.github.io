@@ -113,12 +113,14 @@
  }
  /*===Class===*/
  
- .container {
+ .container-fluid {
  	background-color: #ccc;
  	background: -webkit-linear-gradient(#222, #ccc);
  	background: -o-linear-gradient(#222, #ccc);
  	background: -moz-linear-gradient(#222, #ccc);
  	background: linear-gradient(#222, #ccc);
+ 	padding-left: 0px;
+ 	padding-right: 0px;
  }
  
  .content {
